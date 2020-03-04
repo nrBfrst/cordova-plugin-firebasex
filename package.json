@@ -1,18 +1,16 @@
 {
-  "name": "cordova-plugin-firebasex",
-  "version": "8.1.1",
-  "description": "Cordova plugin for Google Firebase",
+  "name": "fork-firebasex",
+  "version": "0.0.1",
+  "description": "Forked version of firebasex",
   "types": "./types/index.d.ts",
-  "author": {
-    "name": "Dave Alden"
-  },
+  "author": "Dave Alden",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dpa99c/cordova-plugin-firebase"
+    "url": "git+https://github.com/nrBfrst/cordova-plugin-firebasex.git"
   },
   "cordova": {
-    "id": "cordova-plugin-firebase",
+    "id": "fork-firebasex",
     "platforms": [
       "android",
       "ios"
@@ -38,5 +36,13 @@
     "plist": "^3.0.1",
     "xcode": "^2.0.0",
     "xml-js": "^1.6.11"
+  },
+  "bugs": {
+    "url": "https://github.com/nrBfrst/cordova-plugin-firebasex.git"
+  },
+  "homepage": "https://github.com/nrBfrst/cordova-plugin-firebasex.git#readme",
+  "main": "bump-version.js",
+  "directories": {
+    "test": "test"
   }
 }
